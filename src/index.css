@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(68,11,81);
+background: linear-gradient(0deg, rgba(68,11,81,1) 0%, rgba(127,19,130,1) 50%, rgba(68,20,124,1) 100%);
+}
+
+
+.cards-bg{
+  background: rgb(68,11,81);
+background: linear-gradient(0deg, rgb(91, 3, 111) 0%, rgba(127,19,130,1) 50%, rgb(106, 33, 189) 100%);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0034a4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff2fe0;
+  border-radius: 5px;
+}
+
