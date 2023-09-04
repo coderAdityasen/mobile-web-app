@@ -56,7 +56,11 @@ function Home() {
             thousands of other Move developers.
           </p>
 
+<<<<<<< HEAD
           <div className="text-center mt-5 ">
+=======
+          <div className="text-center mt-20 ">
+>>>>>>> 6a1d091412f23b491746cf1f222e2e56a26f7668
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
@@ -78,7 +82,11 @@ function Home() {
             thousands of other Move developers.
           </p>
 
+<<<<<<< HEAD
           <div className="text-center mt-5 ">
+=======
+          <div className="text-center mt-20 ">
+>>>>>>> 6a1d091412f23b491746cf1f222e2e56a26f7668
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
@@ -122,7 +130,11 @@ function Home() {
             thousands of other Move developers.
           </p>
 
+<<<<<<< HEAD
           <div className="text-center mt-5 ">
+=======
+          <div className="text-center mt-20 ">
+>>>>>>> 6a1d091412f23b491746cf1f222e2e56a26f7668
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
