@@ -50,7 +50,7 @@ function Home() {
             thousands of other Move developers.
           </p>
 
-          <div className="text-center mt-24 ">
+          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
@@ -73,7 +73,7 @@ function Home() {
             thousands of other Move developers.
           </p>
 
-          <div className="text-center mt-24 ">
+          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
@@ -96,7 +96,7 @@ function Home() {
             thousands of other Move developers.
           </p>
 
-          <div className="text-center mt-24 ">
+          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
