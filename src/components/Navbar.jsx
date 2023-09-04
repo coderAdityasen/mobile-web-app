@@ -16,11 +16,11 @@ function Navbar(){
 {/* here are the lag devices icons */}
             </div>
             <div className="hidden sm:block">
-                <ul>
-                    <li>developer Hub</li>
-                    <li>Learn</li>
-                    <li>DashBoard</li>
-                    <li>Social</li>
+                <ul className="flex gap-24 mr-10">
+                    <li className="text-white font-semibold cursor-pointer">Developer Hub</li>
+                    <li className="text-white font-semibold cursor-pointer">Learn</li>
+                    <li className="text-white font-semibold cursor-pointer">DashBoard</li>
+                    <li className="text-white font-semibold cursor-pointer">Social</li>
                 </ul>
             </div>
 
@@ -34,8 +34,8 @@ function Navbar(){
 
             </button>
         </nav>
-        {isHidden ? null : <div>
-            <ul>
+        {isHidden ? null : <div className="">
+            <ul className="">
                 <li className="text-center text-2xl my-10 font-semibold cursor-pointer text-white">Developer Hub</li>
                 <li className="text-center text-2xl my-10 font-semibold cursor-pointer text-white">Learn</li>
                 <li className="text-center text-2xl my-10 font-semibold cursor-pointer text-white">Dashboard</li>
