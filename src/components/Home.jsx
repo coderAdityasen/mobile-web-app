@@ -57,12 +57,12 @@ function Home() {
           </p>
 
           <div className="text-center mt-5 ">
-          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
           </div>
         </div>
+
 
         <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14">
           <img
@@ -80,7 +80,6 @@ function Home() {
           </p>
 
           <div className="text-center mt-5 ">
-          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
@@ -123,20 +122,13 @@ function Home() {
             No more need to build alone, join our community to build alongside
             thousands of other Move developers.
           </p>
-
-
           <div className="text-center mt-5 ">
-
-          <div className="text-center mt-20 ">
             <button className="bg-[#333333ff] text-white px-5 py-2">
               Start Building
             </button>
           </div>
-        </div>
       </div>
-      </div>
-      </div>
-
+    </div>
       {/* footer */}
 
       <h1 className="text-center text-4xl py-10 font-bold gradient-text">BUILD WITH US</h1>
@@ -199,8 +191,8 @@ function Home() {
           </div>
         </div>
       </div>
-      </div>
-    </>
+  
+</>
   )
 }
 
