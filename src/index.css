@@ -38,19 +38,6 @@ background: linear-gradient(0deg, rgb(91, 3, 111) 0%, rgba(127,19,130,1) 50%, rg
 }
 
 
-.touch-scroll::-webkit-scrollbar {
-  width: 8px;
-}
-
-.touch-scroll::-webkit-scrollbar-thumb {
-  background-color: #6b7280; /* Change the color as desired */
-  border-radius: 4px;
-}
-
-.touch-scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #4b5563; /* Change the color for hover state */
-}
-
 /* Add this CSS to your stylesheet */
 .gradient-text {
   background-image: linear-gradient(16deg, rgba(28,193,186,1) 0%, rgba(28,221,141,1) 50%, rgba(21,131,34,1) 100%); /* Replace with your desired gradient colors */

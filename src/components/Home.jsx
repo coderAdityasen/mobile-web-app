@@ -40,10 +40,10 @@ function Home() {
 
       {/* cards views */}
 
-      <div className="w-10/12 mx-auto h-[35rem] overflow-auto my-12 2xl:flex 2xl:flex-nowrap 2xl:overflow-x-scroll 2xl:touch-auto 2xl:items-start 2xl 2xl:gap-10  ">
-        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14">
-          <img
-            className="w-48 m-auto relative top-[-3rem]"
+      <div className="w-10/12 mx-auto h-[35rem] overflow-auto my-12 2xl:flex 2xl:justify-start 2xl:gap-5 2xl:whitespace-nowrap ">
+        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14 2xl:w-4/12 shadow-slate-950">
+        <img
+            className="w-48 m-auto relative top-[-4rem] "
             src="https://movedevelopers.com/card1-removebg-preview.png"
             alt=""
           />
@@ -52,21 +52,22 @@ function Home() {
           </h3>
 
           <p className="text-center text-[18px] p-3">
-            No more need to build alone, join our community to build alongside
-            thousands of other Move developers.
+            No more need to build alone, join our community
+            <br />
+             to build alongside 
+            thousands of <br />other Move developers.
           </p>
 
           <div className="text-center mt-5 ">
-            <button className="bg-[#333333ff] text-white px-5 py-2">
+            <button className="bg-[#333333ff] text-white px-5 py-2 hover:transform hover:-translate-y-2 transition-transform">
               Start Building
             </button>
           </div>
         </div>
 
-
-        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14">
-          <img
-            className="w-48 m-auto relative top-[-3rem]"
+        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14 2xl:w-4/12">
+        <img
+            className="w-48 m-auto relative top-[-4rem]"
             src="https://movedevelopers.com/card2-removebg-preview.png"
             alt=""
           />
@@ -75,21 +76,23 @@ function Home() {
           </h3>
 
           <p className="text-center text-[18px] p-3">
-            No more need to build alone, join our community to build alongside
-            thousands of other Move developers.
+            No more need to build alone, join our community
+            <br />
+             to build alongside 
+            thousands of <br />other Move developers.
           </p>
 
           <div className="text-center mt-5 ">
-            <button className="bg-[#333333ff] text-white px-5 py-2">
+            <button className="bg-[#333333ff] text-white px-5 py-2 hover:-translate-y-2 transition-transform">
               Start Building
             </button>
           </div>
         </div>
 
-        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14">
-          <img
-            className="w-48 m-auto relative top-[-3rem]"
-            src="https://movedevelopers.com/card2-removebg-preview.png"
+        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14 2xl:w-4/12">
+        <img
+            className="w-48 m-auto relative top-[-4rem] "
+            src="https://movedevelopers.com/card1-removebg-preview.png"
             alt=""
           />
           <h3 className="text-center text-xl font-bold ">
@@ -97,21 +100,23 @@ function Home() {
           </h3>
 
           <p className="text-center text-[18px] p-3">
-            No more need to build alone, join our community to build alongside
-            thousands of other Move developers.
+            No more need to build alone, join our community
+            <br />
+             to build alongside 
+            thousands of <br />other Move developers.
           </p>
 
           <div className="text-center mt-5 ">
-            <button className="bg-[#333333ff] text-white px-5 py-2">
+            <button className="bg-[#333333ff] text-white px-5 py-2 hover:-translate-y-2 transition-transform">
               Start Building
             </button>
           </div>
         </div>
 
-        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14">
-          <img
-            className="w-48 m-auto relative top-[-3rem]"
-            src="https://movedevelopers.com/card3-removebg-preview.png"
+        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14 2xl:w-4/12">
+        <img
+            className="w-48 m-auto relative top-[-4rem] "
+            src="https://movedevelopers.com/card1-removebg-preview.png"
             alt=""
           />
           <h3 className="text-center text-xl font-bold ">
@@ -119,15 +124,44 @@ function Home() {
           </h3>
 
           <p className="text-center text-[18px] p-3">
-            No more need to build alone, join our community to build alongside
-            thousands of other Move developers.
+            No more need to build alone, join our community
+            <br />
+             to build alongside 
+            thousands of <br />other Move developers.
           </p>
+
           <div className="text-center mt-5 ">
-            <button className="bg-[#333333ff] text-white px-5 py-2">
+            <button className="bg-[#333333ff] text-white px-5 py-2 hover:-translate-y-2 transition-transform">
               Start Building
             </button>
           </div>
-      </div>
+        </div>
+
+
+        <div className="cards-bg w-10/12 h-[28rem] m-auto mt-14 2xl:w-4/12">
+        <img
+            className="w-48 m-auto relative top-[-4rem] "
+            src="https://movedevelopers.com/card1-removebg-preview.png"
+            alt=""
+          />
+          <h3 className="text-center text-xl font-bold ">
+            Build DApps on Aptos
+          </h3>
+
+          <p className="text-center text-[18px] p-3">
+            No more need to build alone, join our community
+            <br />
+             to build alongside 
+            thousands of <br />other Move developers.
+          </p>
+
+          <div className="text-center mt-5 ">
+            <button className="bg-[#333333ff] text-white px-5 py-2 hover:-translate-y-2 transition-transform">
+              Start Building
+            </button>
+          </div>
+        </div>
+
     </div>
       {/* footer */}
 
